@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class RmspApplication {
-	//COmmit test
+	//Commit test
 	public static void main(String[] args) {
 		SpringApplication.run(RmspApplication.class, args);
 	}
