@@ -1,4 +1,4 @@
-package dev.trevor.RMSP;
+package dev.trevor.RMSP.Prof;
 
 //Use an enum or interface for the professor class?
 
