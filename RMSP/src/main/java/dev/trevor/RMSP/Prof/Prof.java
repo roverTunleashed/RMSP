@@ -9,23 +9,22 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 @Document(collection = "professors")
 @Data
-@AllArgsConstructor
-@NoArgsConstructor
 public class Prof {
     @Id
     private ObjectId id;
-    private String name;
-    private String Faculty;
-    private int quantity;
+    private String faculty;
+    private String picture;
+    private String profName;
+    //Should retrieve from S3 bucket containing images of profs
+    private int rating;
+    private String rmpLink;
 
-//    Prof(String profName, String faculty, int profAge){
-//        this.name = profName;
-//        this.Faculty = faculty;
-//        this.quantity = profAge;
-//    }
-//    @Override
-//    public String toString() {
-//        return "Prof{name='" + name + "', Faculty='" + Faculty + "'}";
-//    }
+    Prof(String faculty, String picture, String profName, int rating, String rmpLink){
+        this.faculty = faculty;
+        this.picture = picture;
+        this.profName = profName;
+        this.rating = rating;
+        this.rmpLink = rmpLink;
+    }
 
 }
