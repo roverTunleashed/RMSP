@@ -7,7 +7,9 @@ Applying knowledge learnt from Node.js to a new framework (Spring)
 
 ## Backend Technologies
 Using Java with the Spring Framework, Spring Boot to quickly bootstrap production-level appliciation that is simple to run
+
 - Layered (3 tier) architecture with Controller, Service and Repository classes
+
   - Controller handles HTTP request
   - Services handles business logic
   - Repository handles database interactions with MongoDB database
