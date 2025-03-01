@@ -2,7 +2,7 @@
 ![image](https://github.com/user-attachments/assets/d0b18ae1-8712-4190-b9a1-9aaf9bf7dade)
  
 ## Purpose
-Created a quick and easy way for students rank their favorite (or least favorite) professors at Simon Fraser University
+Created a quick and easy way for students rank their favorite (or least favorite) professors at Simon Fraser University\
 Applying knowledge learnt from Node.js to a new framework (Spring) 
 
 ## Backend Technologies
